@@ -1,0 +1,67 @@
+.header {
+    display: grid;
+    grid-template-columns: 10rem 40rem 20rem;
+    justify-content: space-between;
+    padding: 1.7rem;
+    background: linear-gradient(90deg, #001b2f 0%, #005695 100%);
+    height: 10vh;
+}
+
+.logo {
+    margin-left: 1rem;
+}
+
+.menu {
+    ul {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    li {
+        color: white;
+    }
+
+    li:hover {
+        color: #289bed
+    }
+}
+
+.busca {
+    display: flex;
+    width: 70%;
+    border-radius: 20px;
+    border: 1px white solid;
+    height: 2rem;
+    align-items: center;
+
+    input {
+        width: 80%;
+        background: none;
+        border: none;
+        border-radius: 15px;
+        height: 100%;
+        text-align: center;
+        color: white;
+
+
+        &::placeholder {
+            text-align: center;
+            color: white;
+        }
+        
+    }
+
+    input:focus-visible{
+        border: none;
+        background: none;
+        outline: none;
+        
+    }
+
+    button{
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+
+}
