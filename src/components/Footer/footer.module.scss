@@ -1,0 +1,39 @@
+.contact{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+    background: #005695;
+    width: 100vw;
+    color: white;
+
+    p{
+        margin-left: 1.4rem;
+    }
+
+    ul{
+        display: flex;
+        list-style: none;
+        justify-content: space-evenly;
+
+        li{
+            margin: .5rem;
+
+            img{
+                width: 2rem;
+                margin: .5rem;
+            }
+        }
+    }
+}
+.info{
+    background: #232020;
+    color: white;
+    text-align: center;
+    width: 100vw;
+    height: 3.4rem;
+
+    p{
+        padding: 15px;
+    }
+}

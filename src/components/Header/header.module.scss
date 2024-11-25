@@ -2,9 +2,10 @@
     display: grid;
     grid-template-columns: 10rem 40rem 20rem;
     justify-content: space-between;
+    align-items: center;
     padding: 1.7rem;
     background: linear-gradient(90deg, #001b2f 0%, #005695 100%);
-    height: 10vh;
+    height: 15vh;
 }
 
 .logo {
@@ -17,22 +18,31 @@
         justify-content: space-evenly;
     }
 
-    li {
-        color: white;
+    .link:hover {
+        color: #005695;
+        background-color: white;
+        padding: .6rem;
+        transition-duration: .2s;
+
     }
 
-    li:hover {
-        color: #289bed
+    .link{
+        color: white;
+        font-size: 1.1rem;
+        border-radius: 10px;
+
     }
+    
 }
 
 .busca {
     display: flex;
     width: 70%;
     border-radius: 20px;
-    border: 1px white solid;
+    border: 2px white solid;
     height: 2rem;
     align-items: center;
+    justify-content: center;
 
     input {
         width: 80%;
@@ -62,6 +72,7 @@
         background: none;
         border: none;
         cursor: pointer;
+        padding: .3rem;
     }
 
 }
