@@ -1,0 +1,20 @@
+.cardSec{
+
+    div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        border: 2.4px solid #005695;
+        width: 10rem;
+        height: 10rem;
+        margin: 1rem;
+        border-radius: 10px;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    img{
+        width: 4rem;
+    }
+}
