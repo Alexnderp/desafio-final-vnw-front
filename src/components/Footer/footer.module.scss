@@ -21,9 +21,26 @@
 
             img{
                 width: 2rem;
+                margin: .1rem;
+            }
+        }
+    }
+
+    @media screen and (max-width:900px) {
+     flex-direction: column;   
+
+     ul{
+        justify-content: center;
+
+
+        li{
+
+            img{
+                width: 1.4rem;
                 margin: .5rem;
             }
         }
+    }
     }
 }
 .info{
