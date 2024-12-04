@@ -19,16 +19,16 @@ export default function CardHome() {
       text: "Garante que todos, independentemente de sua condição, tenham oportunidades de aprendizado.",
     },
   ];
-  const divs = [];
+  const articles = [];
 
   for (let i = 0; i < cards.length; i++) {
-    divs.push(
-      <div className={s.conteiner}>
+    articles.push(
+      <article className={s.conteiner}>
         <img src={cards[i].img} alt="" />
         <p>{cards[i].text}</p>
-      </div>
+      </article>
     );
   }
 
-  return <section className={s.box}>{divs}</section>;
+  return <section className={s.box}>{articles}</section>;
 }

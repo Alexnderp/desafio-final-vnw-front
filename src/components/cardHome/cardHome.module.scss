@@ -1,25 +1,43 @@
-.box{
+.box {
     display: flex;
+    height: 60vh;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+
+    @media screen and (max-width:780px) {
+        flex-direction: column;
+        height: auto;
+        flex-wrap: wrap;
+    }
 }
 
 .conteiner {
-    width: 15rem;
-    height: 19rem;
+    width: 20%;
+    height: 70%;
     margin: 3rem;
     padding: 1rem;
     text-align: center;
-    background:#0157944D;
-    border-radius: 10px
-    ;
+    background: #0157944D;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
     img {
         width: 5rem;
         margin: 2rem;
     }
 
-    p{
+    p {
         font-size: 19px;
     }
+
+    @media screen and (max-width:780px) {
+        width: 40%;
+    }
+
+    
+
+    
 }
