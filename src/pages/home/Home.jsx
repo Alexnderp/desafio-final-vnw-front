@@ -7,8 +7,8 @@ export default function Home() {
       <section className={s.banner}>
         <h2>VENHA FAZER PARTE DA MAIOR REDE DE DOAÇÃO</h2>
       </section>
-      <section className={s.doar}>
-        <h2>Por que devo doar?</h2>
+        <h2 className={s.doar}>Por que devo doar?</h2>
+      <section className={s.box}>
         <CardHome/>
       </section>
     </>

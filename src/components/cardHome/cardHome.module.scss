@@ -1,20 +1,21 @@
 .box {
     display: flex;
+    flex-wrap: wrap;
     height: 60vh;
+    width: 100vw;
     align-items: center;
     justify-content: space-evenly;
 
     @media screen and (max-width:780px) {
         flex-direction: column;
         height: auto;
-        flex-wrap: wrap;
     }
 }
 
 .conteiner {
     width: 20%;
     height: 70%;
-    margin: 3rem;
+    margin: 1rem;
     padding: 1rem;
     text-align: center;
     background: #0157944D;
